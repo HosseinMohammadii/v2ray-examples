@@ -17,15 +17,15 @@ start["How to choose V2Ray scheme fa:fa-rocket"] -->
 simple-way? -->
   |No| speed?(-"Do you want speed? Or stability?"-)
 simple-way? -->
-  |Yes| buy["Buy, buy, buy! Please search for paid VPN SS V2Ray by yourself 
-, which is convenient, fast, time-saving and labor-saving!"]
+  |Yes| buy["Buy, buy, buy! Please search for <br> paid VPN SS V2Ray by yourself 
+, <br> which is convenient, fast, <br> time-saving and labor-saving!"]
 
 speed? --> |stable| worry-sniff?(-"Mind if you might be detected using V2Ray?"-)
 speed? --> |speed| kcp["fa:fa-star KCP"]
 
 %% speed branch
 
-kcp --> more-speed?(-"Simple KCP speed is not ideal? Want to try a more complex configuration?"-)
+kcp --> more-speed?(-"Simple KCP speed is not ideal? <br> Want to try a more complex configuration?"-)
 more-speed? -->
   |Yes| kcp-udp2raw["fa:fa-star fa:fa-star fa:fa-star try KCP + udp2raw 
 *note that udp2raw is difficult to use on mobile clients "]
@@ -33,11 +33,11 @@ more-speed? -->
 kcp-udp2raw --> more-more-speed?(-"Still not powerful?"-)
 more-more-speed? -->
   |"Yeah! I feel cheated!"| tcp-bbr["
-    fa:fa-star fa:fa-star fa:fa-star Adjust KCP parameters or try TCP + BBR 
+    fa:fa-star fa:fa-star fa:fa-star Adjust KCP parameters or try TCP + BBR <br>
 
-    *Note that BBR requires specific system support, please refer to related tutorials. 
+    *Note that BBR requires specific system support, <br> please refer to related tutorials. <br>
 
-    Since it is a low-level unilateral algorithm, it can be used in combination with other options
+    Since it is a low-level unilateral algorithm,<br> it can be used in combination with other options
   "]
 
 %% stable branch
@@ -45,7 +45,7 @@ more-more-speed? -->
 worry-sniff? -->
   |Don't worry about it | tcp-vmess["fa:fa-star TCP + Vmess"]
 worry-sniff? -->
-  |Working secretly| have-website?(-"Do you know how to build a website? Is 
+  |Working secretly| have-website?(-"Do you know how to build a website? <br> Is 
 a website already running on the server?"-)
 
 have-website? -->
@@ -65,18 +65,18 @@ https? -->
 
 website --> cdn?
 https-website --> cdn?
-cdn?(-"Want to protect the host IP from being killed? 
+cdn?(-"Want to protect the host IP from being killed? <br>
 Even if the speed may be affected indefinitely?"-) -->
   |"Yes, it's a little bit more stable"| cdn["fa:fa-star fa:fa-star Cloudflare and other CDNs 
 *Note that this difficulty level is unique to CDNs "]
 
 
 note(" 
-fa:fa-star indicates the complexity level, the more fa:fa-star, the more complex and difficult it is 
+fa:fa-star indicates the complexity level, the more fa:fa-star, <br> the more complex and difficult it is 
 
-. <br> Some options in the speed classification and stability classification can be used in <br> combination
+.Some options  <br> in the speed classification and stability classification <br> can be used in combination
 
-To participate in modifying this picture, please go to github.com/v2fly/vTemplate
+To participate in <br> modifying this picture, please go to github.com/v2fly/vTemplate
 ")
 
 style note stroke-width: 2px, stroke-dasharray: 5.5
