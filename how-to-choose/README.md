@@ -4,7 +4,7 @@
 
 ## Want to participate in modifying this picture?
 
-1. Modify [how-to-choose-a-v2ray-plan](how-to-choose-a-v2ray-plan.mmd) (see [Mermaid flowchart syntax](https://mermaidjs.github.io/ how-to-choose-a-v2ray-plan.html))
+1. Modify [how-to-choose-a-v2ray-plan](how-to-choose-a-v2ray-plan.mmd) (see [Mermaid flowchart syntax](https://mermaidjs.github.io/how-to-choose-a-v2ray-plan.html))
 1. Generate PNG and overwrite the existing `how-to-choose-a-v2ray-plan.png` file
    1. Install [mermaid.cli](https://github.com/mermaidjs/mermaid.cli)
       ```shell
