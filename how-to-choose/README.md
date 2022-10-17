@@ -1,10 +1,3 @@
-Translation types
-Text translation
-Source text
-# Rúhé xuǎnzé V2Ray fāng'àn ![](How-to-choose-a-v2ray-plan.Png) ## xiǎng cānyù xiūgǎi běn tú? 1. Xiūgǎi [how-to-choose-a-v2ray-plan](how-to-choose-a-v2ray-plan.Mmd) (cānjiàn [Mermaid liúchéng tú yǔfǎ](https://Mermaidjs.Github.Io/how-to-choose-a-v2ray-plan.Html)) 1. Shēngchéng chū PNG bìng fùgài yǐ cúnzài de `how-to-choose-a-v2ray-plan.Png`wénjiàn 1. Ānzhuāng [mermaid.Cli](https://Github.Com/mermaidjs/mermaid.Cli) ```shell # yarn config set puppeteer_download_host https://Npm.Taobao.Org/mirrors yarn add mermaid.Cli ``` Or use NPM: ``` # Npm config set puppeteer_download_host=https://Npm.Taobao.Org/mirrors npm install mermaid.Cli ``` 1. Shēngchéng wénjiàn ```shell ./Node_modules/.Bin/mmdc -i how-to-choose-a-v2ray-plan.Mmd -o how-to-choose-a-v2ray-plan.Png -t forest -C style.Css -w 1920 -H 1080 -p puppeteer-config.Json ``` 1. Tíjiāo PR ## xiāngguān liànjiē [zàixiàn yùlǎn Mermaid](https://Mermaidjs.Github.Io/mermaid-live-editor/) [zhīchí Mermaid de zàixiàn Markdown biānjí qì](https://Mdp.Tylingsoft.Com/) [mermaid](https://Github.Com/knsv/mermaid)
-Show more
-1,004 / 5,000
-Translation results
 # How to choose a V2Ray solution
 
 ![](how-to-choose-a-v2ray-plan.png)
@@ -34,7 +27,3 @@ Translation results
 [Online Preview Mermaid](https://mermaidjs.github.io/mermaid-live-editor/)
 [Online Markdown editor with Mermaid support](https://mdp.tylingsoft.com/)
 [mermaid](https://github.com/knsv/mermaid)
-More about this source text
-Source text required for additional translation information
-Send feedback
-Side panels
